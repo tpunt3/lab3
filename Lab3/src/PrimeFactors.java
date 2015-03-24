@@ -8,7 +8,7 @@ public class PrimeFactors {
 		// TODO Auto-generated method stub
 		ArrayList<Integer> primes = new ArrayList<Integer>();
 		if(i > 1){
-			primes.add(2);
+			primes.add(i);
 		}
 		return primes;
 	}
