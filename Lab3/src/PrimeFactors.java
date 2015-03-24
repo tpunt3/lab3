@@ -6,8 +6,11 @@ public class PrimeFactors {
 
 	public static List<Integer> generate(int i) {
 		// TODO Auto-generated method stub
-		return new ArrayList<Integer>();
-		
+		ArrayList<Integer> primes = new ArrayList<Integer>();
+		if(i > 1){
+			primes.add(2);
+		}
+		return primes;
 	}
 
 }
