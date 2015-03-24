@@ -31,4 +31,9 @@ public class PrimeFactorsTest {
 	public void testFour() throws Exception {
 		assertEquals(list(2,2),PrimeFactors.generate(4));
 	}
+	
+	@Test
+	public void testSix() throws Exception {
+		assertEquals(list(2,3),PrimeFactors.generate(6));
+	}
 }
