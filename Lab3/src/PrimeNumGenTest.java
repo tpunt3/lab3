@@ -30,9 +30,13 @@ public class PrimeNumGenTest {
 		ArrayList<Integer> expected = new ArrayList<Integer>();
 		ArrayList<Integer> expected1 = new ArrayList<Integer>();
 		expected1.add(2);
+		ArrayList<Integer> expected2 = new ArrayList<Integer>();
+		expected2.add(2);
+		expected2.add(3);
 		return Arrays.asList(new Object[][]{
 			{2, expected},
-			{3,expected1}
+			{3,expected1},
+			{4,expected2}
 			
 		});
 	}
