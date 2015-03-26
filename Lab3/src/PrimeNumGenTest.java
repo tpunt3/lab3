@@ -28,8 +28,11 @@ public class PrimeNumGenTest {
 	@Parameterized.Parameters
 	public static Collection primeNumbers(){
 		ArrayList<Integer> expected = new ArrayList<Integer>();
+		ArrayList<Integer> expected1 = new ArrayList<Integer>();
+		expected1.add(2);
 		return Arrays.asList(new Object[][]{
 			{2, expected},
+			{3,expected1}
 			
 		});
 	}
