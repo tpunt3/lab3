@@ -4,14 +4,15 @@ public class PrimeNumGen {
 
 	public ArrayList generate(Integer input) {
 		ArrayList<Integer> primes = new ArrayList<Integer>();
-		
-		if(input >2){
-			primes.add(2);
-			for (int i=2; i<input;i++){
-				if (i%2!=0){
-					primes.add(i);
+		for(int i=2; i < input; i++){
+			boolean isprime=true;
+			for(int k = 2;k < i; k++){
+				System.out.println("i = " + i + " and k = " + k);
+				if(i%k==0){
+					isprime=false;
 				}
 			}
+			if(isprime) primes.add(i);
 		}
 		
 		return primes;
