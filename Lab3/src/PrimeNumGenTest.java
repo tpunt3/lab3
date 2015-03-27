@@ -44,13 +44,39 @@ public class PrimeNumGenTest {
 		expected4.add(7);
 		expected4.add(11);
 		expected4.add(13);
-		
+		ArrayList<Integer> expected5 = new ArrayList<Integer>();
+		expected5.add(2);
+		expected5.add(3);
+		expected5.add(5);
+		expected5.add(7);
+		expected5.add(11);
+		expected5.add(13);
+		expected5.add(17);
+		expected5.add(19);
+		expected5.add(23);
+		expected5.add(29);
+		expected5.add(31);
+		expected5.add(37);
+		expected5.add(41);
+		expected5.add(43);
+		expected5.add(47);
+		expected5.add(53);
+		expected5.add(59);
+		expected5.add(61);
+		expected5.add(67);
+		expected5.add(71);
+		expected5.add(73);
+		expected5.add(79);
+		expected5.add(83);
+		expected5.add(89);
+		expected5.add(97);
 		return Arrays.asList(new Object[][]{
 			{2, expected},
 			{3,expected1},
 			{4,expected2},
 			{6,expected3},
 			{14,expected4},
+			{100,expected5}
 			
 		});
 	}
